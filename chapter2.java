@@ -67,10 +67,71 @@ public class Main {
   }
 }
 
-2-9 文字列の連結
+// 2-9 文字列の連結
 public class Main {
   public static void main(String[] args){
     String msg = "私の年齢は" + 23;
     System.out.println(msg);
   }
 }
+
+// 2-10 命令実行の分（画面に表示する）
+public class Main{
+  public static void main(Stirng[] args){
+    String name = "すがわら";
+    String message;
+    message = name + "さん、こんにちは";
+    System.out.println(message);
+  }
+}
+
+// 2-11 改行なし画面出力の命令
+public class Main{
+  public static void main(String[] args){
+    String name = "すがわら";
+    System.out.println("私の名前は");
+    System.out.println(name);
+    System.out.print("です");
+  }
+}
+
+// 2-12 大きいほうの数値を代入する命令
+public class Main{
+  public static void main(String[] args){
+    int a = 5;
+    int b = 3;
+    int m = Math.max(a, b);
+    System.out.println("比較実験：" + a + "と" + b + "とで大きいほうは･･･" + m);
+  }
+}
+
+// 2-13 String型をint型に変換する命令
+public class Main {
+  public static void main(String[] args){
+    String age = "31";
+    int n = Integer.parseInt(age);  //ageは数値として解釈させたい文字列
+    System.out.println
+      ("あなたは来年、" + (n + 1) + "歳になりますね。");
+  }
+}
+
+//2-14 ランダムな数を生成する命令
+public class Main{
+  public static void main(String[] args){
+    int r = new java.util.Random().nextInt(90);   //90は発生させる乱数の上限値
+    System.out.println("あなたはたぶん、" + r + "歳ですよね？")
+  }
+}
+
+// 2-15 キーボードから入力を受け付ける命令
+public class Main {
+  public static void main(String[] args){
+    System.out.println("あなたの名前を入力してください。");
+    String name = new java.util.Scanner(System.in).nextLine();  //キーボードから１行の文字列の入力を受け付ける
+    System.out.println("あなたの年齢を入力してください。");
+    int age = new java.util.Scanner(System.in).nextInt();　　//キーボードから1つの整数の入力を受け付ける
+    System.out.println
+        ("ようこそ、" + age  "歳の" + name + "さん");
+  }
+}
+
