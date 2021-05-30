@@ -91,3 +91,12 @@ public class Main{
     }
   }
 }
+
+//3-7 基本的なfor文
+public class Main{
+  public static void main(String[] args){
+    for (int i = o; i < 10; i++){
+      System.out.println("こんにちは");
+    }
+  }
+}
