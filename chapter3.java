@@ -95,8 +95,17 @@ public class Main{
 //3-7 基本的なfor文
 public class Main{
   public static void main(String[] args){
-    for (int i = o; i < 10; i++){
+    for (int i = 0; i < 10; i++){
       System.out.println("こんにちは");
+    }
+  }
+}
+
+//3-8 for文のループ変数iの内容を表示する
+public class Main{
+  public static void main(String[] args){
+    for (int i = 0; i < 3; i++){
+      System.out.print("現在" + (i + 1) + "週目→");
     }
   }
 }
