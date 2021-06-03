@@ -57,11 +57,22 @@ public class Main {
   }
 }
 
-4-7配列は自動的に初期化される
+4-7 配列は自動的に初期化される
 public class Main {
   public static void main(Stirng[] args){
     int[] scores = new int[5];
     System.out.println(scores[0]);  //0が出力される（エラーにならない）
+  }
+}
+
+4-8 配列を用いた点数管理プログラム（エラー）
+public class Main {
+  public static void main(String[] args){
+    int[] scores = {20, 30, 40, 50, 80};
+    int sum = scores[1] + scores[2] + scores[3] + scores[4] + scores[5];
+    int avg = sum / scores.length;
+    System.out.println("合計点:" + sum);
+    System.out.println("平均点:" + avg);
   }
 }
 
