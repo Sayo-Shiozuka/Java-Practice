@@ -184,3 +184,19 @@ public class Main {
     }
   }
 }
+
+4-17 nullの利用（エラー）
+public class Main {
+  public static void main(String[] args){
+    int[] array = {1, 2, 3};
+    array = null;
+    array[0] = 10;
+  }
+}
+
+4-18 2次元配列の利用
+public class Main{
+  public static void main(String[] args) {
+    int[][] scores = new in
+  }
+}
