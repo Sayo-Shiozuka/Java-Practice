@@ -94,3 +94,10 @@ public class Main {
     System.out.println(add(add(10, 20), add(30, 40)));
   }
 }
+
+//5-9 return文の後に処理は書けない(エラー)
+public static int sample() {
+  //・・・
+  return 1;
+  int x = 10; //この文が実行されることはないのでコンパイルエラーになる
+}
