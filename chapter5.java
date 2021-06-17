@@ -185,3 +185,22 @@ public class Main {
     }
   }
 }
+
+//練習問題
+//5-1
+public class Main {
+  public static void main(String[] args) {
+    introduceOneself();
+  }
+
+  public static void introduceOneself() {
+    String name = "Sayo";
+    int age = 25;
+    double height = 161.5;
+    char zodiac = '猪';
+    System.out.println("私の名前は" + name + "です");
+    System.out.println("歳は" + age + "です");
+    System.out.println("身長は" + height + "cmです");
+    System.out.println("十二支は" + zodiac + "です");
+  }
+}
