@@ -1,7 +1,6 @@
-//6-7 別のパッケージにあるクラスを呼び出す
 
 package calcapp.main;
-import calcapp.logics.CalcLogic;
+import calcapp.logics.*;
 
 public class Calc {
   public static void main(String[] args) {
