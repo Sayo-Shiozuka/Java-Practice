@@ -1,3 +1,5 @@
+//6-7 別のパッケージにあるクラスを呼び出す
+
 package calcapp.main;
 
 public class Calc {
