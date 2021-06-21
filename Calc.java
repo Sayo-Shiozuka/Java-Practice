@@ -1,5 +1,5 @@
 
-package calcapp.main;
+package calcapp.main.*;
 import calcapp.logics.*;
 
 public class Calc {
